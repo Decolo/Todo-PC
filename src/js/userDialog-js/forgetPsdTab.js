@@ -21,7 +21,8 @@ class ForgetPasswordTab extends Component {
                     <div className="row">
                     <label><i className="iconfont icon-youjian"></i></label>
                     <input type="text" 
-                        onChange={this.changeFormData.bind(this)}/>
+                        onChange={this.changeFormData.bind(this)}
+                        placeholder="email"/>
                     </div>
                     <div className="row actions">
                     <button type="submit" onClick={this.resetPassword.bind(this)} value="signIn">Send E-mails</button>
